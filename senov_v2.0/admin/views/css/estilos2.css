@@ -1,0 +1,128 @@
+@media screen and (max-width: 900px) {
+	.barra-lateral{
+		background: #333;
+		color: #fff;
+		min-width: 290px;
+		height: 93vh;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+	  	user-select: none;
+	  	display: none;
+	}
+}
+
+div.barra{
+	position: absolute;
+	height: 65px;
+	width: 0px;
+	background: #777;
+	opacity: .1;
+	-webkit-transition: width 250ms;
+	border-right: 5px solid #fff;
+}
+
+li:hover div.barra{
+	width: 100%;
+}
+
+.barra-lateral{
+	background: #333;
+	color: #fff;
+	min-width: 290px;
+	min-height: 500px;
+	height: 93vh;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+  	user-select: none;
+}
+
+.barra-lateral .logo h2 {
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-weight: 300;
+	margin:0;
+}
+
+.barra-lateral .menu ul{
+	list-style: none;
+	padding: 0;
+}
+
+.barra-lateral .menu ul li a{
+	text-decoration: none;
+}
+
+
+.barra-lateral .menu ul li span {
+	display: block;
+	padding: 20px 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	border-bottom: 1px solid rgba(255,255,255,.1);
+	text-decoration: none;
+	transition: all ease 300ms;
+	color: #FFF;
+	opacity: .6;
+	-webkit-transition: opacity .2s;
+	font-size: 17px;
+}
+
+.barra-lateral .menu ul li:hover span{
+	opacity: 1;
+} 
+
+.barra-lateral .menu ul li a i {
+	margin-right: 20px;
+	font-weight: normal;
+}
+
+.main {
+	position: absolute;
+	padding-top: 40px;
+	background: #e5e5e5;
+	height: 100vh;
+	transition: all 500ms ease;
+}
+
+.header{
+	margin-bottom: 2px;
+	background: #333;
+	padding: 14.2px 0;
+}
+
+.header-panel span{
+	font-size: 30px;
+	color: #FFF;	
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-weight: 300;
+}
+
+.header-panel{
+	background: #444;
+}
+
+.logo{
+	background:#FF8400;
+	padding: 10px 0;
+	min-width: 290px;
+}	
+
+.logo span{
+	color: #fff;
+}
+
+.logo i{
+	margin-top: 5px;
+	font-size: 2em;
+	color: #fff;
+	float: right;
+}
+
+.logo i:hover{
+	transition: all 300ms ease;
+	color:#333;
+}

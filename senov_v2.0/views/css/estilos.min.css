@@ -1,0 +1,8 @@
+body{background:#f2f2f2;font-family:'Roboto',sans-serif}.menu{background:rgba(0,0,0,0.5)}. .formulario{color:#fff;background:rgba(0,0,0,0.7);padding:20px;border-radius:4px;box-shadow:10px 10px 20px 0 #333}
+.encabezado_login{text-align:center;font-family:'Roboto',sans-serif;font-size:28px;border-bottom:2.5px solid #fff;margin-bottom:24px;font-weight:bold}
+.caja_form{margin-top:20%;margin-bottom:30%}.footer{background:#0bbe0e}.footer p{color:#fff;margin-bottom:10px;margin-top:0}.redes_sociales{background:#00db04;padding:10px 0}
+.redes_sociales div{text-align:center}.redes_sociales div a{font-size:50px;margin-left:10px;text-decoration:none}.icon-facebook-with-circle{color:#FFF}
+.icon-instagram-with-circle{color:#FFF}.icon-twitter-with-circle{color:#FFF}.icon-facebook-with-circle:hover{color:#212cd1}.icon-instagram-with-circle:hover{color:#212cd1}
+.icon-twitter-with-circle:hover{color:#212cd1}.columna_form_registro{box-shadow:0 0 30px 5px #939393;padding:20px 40px;border-radius:2px;margin-top:10%;margin-bottom:10%}
+.columna_form_registro .titulo_registro span{font-family:'Righteous',cursive;color:#333;font-size:28px}.columna_form_registro .input-group span{width:25%;color:#FFF;background:#212;font-family:'Roboto',sans-serif;margin-right:1.5%}
+.columna_form_registro .input-group input{padding:15px 10px;font-size:18px;border:1px solid #212}.columna_form_registro .input-group select{font-size:18px;border:1px solid #212}

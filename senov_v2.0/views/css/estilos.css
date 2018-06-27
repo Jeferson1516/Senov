@@ -1,0 +1,553 @@
+body{
+	background: #f2f2f2;
+	font-family: 'Roboto', sans-serif;
+}
+
+	
+.menu{
+	background: rgba(0,0,0,0.5);
+	border-bottom: 1px solid #333 ;
+}
+
+.menu a{
+	color: #fff;
+}
+.menu .texto_link{
+	font-size: 22px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.menu .texto_link:hover{
+	opacity: 0.7;
+}
+
+.menu .text_menu_despegable a{
+	color: #000;
+}
+.formulario{
+	color: #fff;
+	background: rgba(0,0,0,0.7);
+	padding: 20px;
+	border-radius: 4px;
+	box-shadow: 10px 10px 20px 0px #333;
+}
+
+.formulario .form-registro .titulo_registro span{
+	color: #fff;
+}
+
+.input-buscador{
+	width: 120px;
+	border:1px solid #FFF;
+	padding: 5px;
+	border-radius: 10px 0px 0px 10px;
+}
+
+.encabezado_login{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 28px;
+	border-bottom: 2.5px solid #fff;
+	margin-bottom: 24px;
+	font-weight: bold;
+}
+
+/*---------EDITED BY JUAN---------*/
+.caja_form{
+	margin-top: 15%;
+} 
+
+.footer{
+	background: #E76F11;
+}
+
+.footer p{
+	color: #fff;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+.redes_sociales{
+	background: #256B96;
+	padding: 10px 0;
+}
+
+.redes_sociales div{
+	text-align: center;
+}
+
+.redes_sociales div a{
+	font-size: 50px;
+	margin-left: 10px; 
+	text-decoration: none; 
+}
+
+.icon-facebook-with-circle{color: #FFF;}
+.icon-instagram-with-circle{color: #FFF;}
+.icon-twitter-with-circle{color: #FFF;}
+
+
+.icon-facebook-with-circle:hover{color: #93A3AD;}
+.icon-instagram-with-circle:hover{color: #93A3AD;}
+.icon-twitter-with-circle:hover{color: #93A3AD;}
+/*-------------HASTA AQUI---------------*/
+
+
+/*==============FORMULARIO_REGISTRO==============*/
+.columna_form_registro{
+	box-shadow: 0px 0px 50px 5px #939393;
+	padding: 20px 40px;
+	border-radius: 5px;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.columna_form_registro .titulo_registro span {
+	font-family: 'Righteous', cursive;
+	color: #333;
+	font-size: 30px;
+}
+
+.columna_form_registro .input-group span{
+	width: 25%;
+	color: #FFF;
+	background: #262a34;
+	font-family: 'Roboto', sans-serif;
+	margin-right: 1.5%;
+}
+
+.columna_form_registro .input-group input{
+	padding: 15px 10px;
+	font-size: 18px;
+	border: 1px solid #262a34;
+}
+
+.columna_form_registro .input-group input[type="text"]:focus,
+.columna_form_registro .input-group input[type="password"]:focus,
+.columna_form_registro .input-group input[type="email"]:focus,
+.columna_form_registro .input-group select:focus{
+	border: 1px solid #fff;
+	box-shadow: 0px 0px 5px 1px #E76F11;
+}
+
+.columna_form_registro .input-group select{
+	font-size: 18px;
+	border: 1px solid #262a34;
+}
+
+
+.columna_form_registro .input_file{
+}
+
+/*====FIN_FORMULARIO_REGISTRO====*/	
+
+
+
+
+/*==============PANEL=======*/
+
+/* --- --- BARRA LATERAL --- --- */
+.barra-lateral {
+	background: #262a34;
+	color: #fff;
+	min-width: 290px;
+	min-height: 100vh;
+	padding: 0;
+	box-shadow: 0px 0px 50px 2px #000;
+	border-right: 1px solid #fff;
+}
+
+.barra-lateral a {
+	color: #fff;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+  	user-select: none;
+}
+
+/* --- LOGO --- */
+.barra-lateral .logo {
+	background: #E76F11;
+	margin-bottom: 2px;
+}
+
+.barra-lateral .logo h2 {
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	padding: 20px 0;
+	text-align: center;
+	font-weight: 300;
+	margin:0;
+}
+.texto_barra_lateral{
+	text-align: center;
+}
+
+/* --- MENU --- */
+.barra-lateral .menu_panel ul{
+	list-style: none;
+	padding: 0;
+}
+
+.barra-lateral .menu_panel ul li a {
+	display: block;
+	padding: 20px 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	border-bottom: 1px solid rgba(255,255,255,.1);
+	text-decoration: none;
+
+}
+
+.barra-lateral .menu_panel ul li a:hover {
+	background: #F9A360;
+	text-decoration: none;
+}
+
+.barra-lateral .menu_panel ul li a i {
+	margin-right: 20px;
+	font-weight: normal;
+}
+/*
+#------Activado
+*/
+
+.barra-lateral .menu_panel .activado > a{
+	background: #E76F11;
+	color: #fff;
+}
+
+.barra-lateral .menu_panel ul ul{
+	display: none;
+
+}
+/* --- --- MAIN --- --- */
+.main {
+	padding-top: 40px;
+}
+
+.main .columna {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.main .titulo {
+	color: #262a34;
+	font-size: 25px;
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 20px;
+}
+
+.main .widget {
+	margin-bottom: 40px;
+}
+
+/*----- Header del panel --------*/
+.header_panel{
+	padding: 20px 0;
+	background: #262a34;
+	border-bottom: 1px solid #fff; 
+	box-shadow: 0px 0px 50px 2px;
+}
+.header_panel_2{
+	padding: 20px 0;
+	background: #E76F11;
+	border-bottom: 1px solid #fff; 
+	box-shadow: 0px 0px 50px 2px;
+	font-size: 16px;
+}
+/* --- --- MEDIAQUERIES --- --- */
+/*@media screen and (max-width: 1300px) {
+	.barra-lateral {
+		min-width: auto;
+	}
+
+	.barra-lateral .logo {
+		display: none;
+	}
+
+	.barra-lateral .menu_panel a span {
+		display: none;
+	}
+
+	.barra-lateral .menu_panel a i {
+		margin:0;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.barra-lateral {
+		min-height: auto;
+	}
+
+	.barra-lateral .menu_panel a {
+		display: inline-block;
+		border-bottom: none;
+	}
+
+	.main .widget form button {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.main .comentarios .comentario .foto {
+		width: 30px;
+		height: 30px;
+	}
+
+	.main .comentarios .comentario .botones button {
+		width: 100%;
+	}
+}
+*/
+/*================TABLA REGISTROS==============*/
+
+.tabla{
+	margin-top: 10%;
+	background: #f2f2f2;
+	border-radius: 10px;
+	box-shadow: 0px 0px 40px 0px;
+}
+
+.ctregistro{
+	background: #E76F11;
+}
+
+/*========== FIN TABLA REGISTROS==========*/
+
+/*--------Iconos Inicio-----------*/
+.caja_iconos{
+	text-decoration: none;
+	text-align: center;
+}
+
+.caja_iconos .contadorNovedad{
+	color: #E76F11;
+}
+.caja_iconos:hover span{
+	color: #FFF;
+}
+
+.caja_iconos:hover{
+	text-decoration: none;
+}
+
+.caja_iconos div{
+	padding: 25px 30px; 
+	border-radius: 5px;
+	text-decoration: none;
+	background: #333;
+	height: 220px;
+} 
+
+.caja_iconos div:hover{
+	/*opacity: 0.8;*/
+	background: #F9A360;
+	box-shadow: 0px 0px 25px 0px #000;
+	color: #fff;
+}
+
+.caja_iconos div h4{
+	text-align: center;
+	font-size: 28px;
+	color: #FFF;
+}
+.caja_iconos div span{
+	display: block;
+	font-size: 80px;
+	text-align: center;
+	color: #fff; 
+}
+.caja_iconos .icon-magnifying-glass{color: #E76F11;}
+.caja_iconos .icon-open-book{color: #E76F11;}
+.caja_iconos .icon-v-card{color: #E76F11;}
+/*==============Tabla novedades============*/
+.tabla_formato_novedades th{
+	padding: 10px;
+	font-weight: 100px;
+	font-size: 20px;
+}
+
+.tabla_formato_novedades th span{
+	margin-right: 10px;
+}
+
+.tabla_formato_novedades td{
+	padding: 10px;
+}
+
+.tabla_formato_novedades td a{
+	font-size: 19px;
+}
+
+.tabla_formato_novedades td span{
+	font-size: 20px;
+	margin-right: 5px;
+}
+
+.tabla_formato_novedades .botones_form a{
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+.btn{
+	cursor: pointer;
+}
+
+
+.btnadminlogin{
+	background: #f9a360;
+	color: #fff;
+}
+.btnadminlogin:hover{
+	background: #e76f11;
+	color: #fff;
+}
+
+
+.btn:focus{
+	color: #fff;
+}
+.botonregistro{
+	background: #F9A360;
+}
+
+.botonregistro:hover{
+	background: #E76F11;
+}
+
+.enlace_cN{
+	text-align: center;
+}
+
+.enlace_cN a{
+	color: #FFFFFF;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.enlace_cN a:hover{
+	color: #E6E6E6;
+}
+
+.btn-group .btn_cargo{
+	background: none;
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+
+}
+
+.btn-group .btn_cargo_enlace li a{
+	padding: 5px;
+	color: #E76F11;
+}
+
+/*--------------------------------------INICIO-------------------------------EDITED BY JUAN */
+.tabla21{
+	border-radius: 10px;
+	text-align: center;
+	margin: 20px; 
+	text-decoration: none;
+	height: 150px;
+	width: 310px;
+	color: #fff;
+	background: #E76F11;
+
+}
+.tabla21 div span{
+	display: block;
+	font-size: 90px;
+	text-align: center;
+	color: #fff; 
+}
+
+.tabla21:hover{
+
+	background: #F9A360 ;
+}
+.al{
+	margin: 40px;
+}
+
+.alo{
+	margin: 65px;
+}
+ 
+
+.abla21{
+	border-radius: 10px;
+	text-align: center;
+	margin: 20px;
+	text-decoration: none;
+	height: 150px;
+	width: 310px;
+	color: #fff;
+	background: #A4A09B;
+
+}
+.abla21 div span{
+	display: block;
+	font-size: 90px;
+	text-align: center;
+	color: #fff; 
+}
+
+.abla21:hover{
+
+	background: #F9A360;
+	text-decoration: none;
+}
+
+.fila p{
+	font-size:30px;
+}
+
+
+/*----------------Novedades----------------*/
+.nove{
+	margin-top:10%;
+}
+.tablap{
+border-style: ridge;
+width: 500px;
+align-self: center;
+}
+.titulos{
+background: #45B39D;
+margin: 1px;
+
+}
+.contenido{
+	background: #ccc;
+	margin: 1px;
+}
+
+/*------HASTA AQUI-------*/	
+
+.bienvenida{
+	background: #FFAE00;
+}
+
+.fonto-loading{
+	background: #302F2F;
+	width: 100%;
+	min-height: 100%;
+	height: auto !important;
+	position: fixed;
+	top:0; 
+	left:0;
+	z-index: 1000000;
+}
+
+.fonto-loading img{
+	width: 600px;
+   height: 500px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-top: -400px;
+   margin-left: -300px;
+}
